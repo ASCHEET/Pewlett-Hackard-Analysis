@@ -16,7 +16,7 @@
 ## Deliverable Two: The Employees Eligible for the Mentorship Program
 ### Understsanding the number of titles from Figure 6 that will be retiring looks substancial, not all future job openings will need to be sourced from outside of Pewlett-Hackard.  The company is going to develop and 'in-house' mentoring programe to give current employees that are not retiring, the needed skills for business continuity. Using the ERD created in this module as a reference and knowledge of SQL queries, a mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965.
 ### ![Figure 7 - mentorship_elegibility_q_code]()
-### ![FIgure 8 - mentorship_elegibiltiy_output]()
+### ![FIgure 8 - mentorship_elegibiltiy_output](https://github.com/ASCHEET/Pewlett-Hackard-Analysis/blob/main/Module_7/mentorship_eleigibility_output.png?raw=true)
 
 ## Deliverable Three: High-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami." 
 ### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
