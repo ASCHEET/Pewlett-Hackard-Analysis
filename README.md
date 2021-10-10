@@ -14,9 +14,8 @@ However; because some employees may have multiple titles in the database, (e.g. 
 ![Figure 4 - unique_titles_output](https://github.com/ASCHEET/Pewlett-Hackard-Analysis/blob/main/Data/unique_title_output.png?raw=true)
 
 Then the COUNT() function was used to create a final table that has the number of retirement-age employees by most recent job title.  This will give a realistic 'high level' output for management to understand the numbers of employees/titles that will be retiring and needing replacement.
-![Figure 5 - retiring_titles_q_code](https://github.com/ASCHEET/Pewlett-Hackard-Analysis/blob/main/Data/retireing_titles_q_code.png?raw=true)
 
-![Figure 6 - retiring_titles_output](https://github.com/ASCHEET/Pewlett-Hackard-Analysis/blob/main/Data/retireing_titles_output.png?raw=true)
+![Figure 5 - retiring_titles_q_code](https://github.com/ASCHEET/Pewlett-Hackard-Analysis/blob/main/Data/retireing_titles_q_code.png?raw=true) ![Figure 6 - retiring_titles_output](https://github.com/ASCHEET/Pewlett-Hackard-Analysis/blob/main/Data/retireing_titles_output.png?raw=true)
 
 This data shows us that:
 - There are approximately 90,000 employees targeted to leave the company within seven departments.
@@ -40,6 +39,5 @@ Are there enough qualified, retirement-ready employees in the departments to men
 Microsoft excel was used to determine the percentage of retirees as the current workforce.  Estimates show that 30% of each department is going to be retiring.  This is opportunity for very quick promotions but if a continuity plan is not implemented and non-qualified individuals are promoted, it could devastate the future workflow.
 ![Figure 11 - excel_workforce](https://github.com/ASCHEET/Pewlett-Hackard-Analysis/blob/main/Data/workforce.png?raw=true)
 
-
-
+### One question is why the queries in Deliverable One showed 90,000+ retirement eligible employees but when the query was ran in deliverable three the total number of current employees was 72,428 retirement eligible...I could not find the distinction in my queries that would result in this discrepancy...
 
