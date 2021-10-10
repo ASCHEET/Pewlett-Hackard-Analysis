@@ -9,21 +9,35 @@
 ### However; because some employees may have multiple titles in the database, (e.g. due to promotions) the DISTINCT ON statement was used to create a filtered table that contains the most recent title of each employee. 
 ### ![Figure 3 - unique_titles_q_code](https://github.com/ASCHEET/Pewlett-Hackard-Analysis/blob/main/Data/unique_title_q_code.png?raw=true)
 ### ![Figure 4 - unique_titles_output](https://github.com/ASCHEET/Pewlett-Hackard-Analysis/blob/main/Data/unique_title_output.png?raw=true)
-### Then the COUNT() function was used to create a final table that has the number of retirement-age employees by most recent job title.  This will give a realistic 'high leve' output for managemnt to understand the numbers of employees/titles that will be retiring and needing replacement.
+### Then the COUNT() function was used to create a final table that has the number of retirement-age employees by most recent job title.  This will give a realistic 'high level' output for management to understand the numbers of employees/titles that will be retiring and needing replacement.
 ### ![Figure 5 - retiring_titles_q_code](https://github.com/ASCHEET/Pewlett-Hackard-Analysis/blob/main/Data/retireing_titles_q_code.png?raw=true)
 ### ![Figure 6 - retiring_titles_output](https://github.com/ASCHEET/Pewlett-Hackard-Analysis/blob/main/Data/retireing_titles_output.png?raw=true)
 
 ## Deliverable Two: The Employees Eligible for the Mentorship Program
-### Understsanding the number of titles from Figure 6 that will be retiring looks substancial, not all future job openings will need to be sourced from outside of Pewlett-Hackard.  The company is going to develop and 'in-house' mentoring programe to give current employees that are not retiring, the needed skills for business continuity. Using the ERD created in this module as a reference and knowledge of SQL queries, a mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965.
+### Understanding the number of titles from Figure 6 that will be retiring looks substantial, not all future job openings will need to be sourced from outside of Pewlett-Hackard.  The company is going to develop and 'in-house' mentoring program to give current employees that are not retiring, the needed skills for business continuity. Using the ERD created in this module as a reference and knowledge of SQL queries, a mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965.
 ### ![Figure 7 - mentorship_elegibility_q_code](https://github.com/ASCHEET/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eleigibility_q_code.png?raw=true)
 ### ![FIgure 8 - mentorship_elegibiltiy_output](https://github.com/ASCHEET/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eleigibility_output.png?raw=true)
 
 ## Deliverable Three: High-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami." 
-### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+### How many roles will need to be filled as the "silver tsunami" begins to make an impact?  To determine the overall impact of the retirees as a portion of the company workforce, it was necessary to compare the company now to what the company will be without the retirees.  A SQL query was used to calculate the number of current employees and sorted by department.  Figure 9 shows the query code and the output per department of total employees.
 ### ![Figure 9 - total_current_emp_q_and_output](https://github.com/ASCHEET/Pewlett-Hackard-Analysis/blob/main/Data/total_current_emp_q_and_output.png?raw=true) 
-### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?  Then a query of retirees per department was used to show how many per department are leaving in Figure 10.  The birth date of January 1, 1952 to December 31, 1955 was used to determine the count of the current employees the were born in that date range.
 ### ![Figure 10 - retiring_current_emp_q_and_output](https://github.com/ASCHEET/Pewlett-Hackard-Analysis/blob/main/Data/retiring_current_emp_q_and_output.png?raw=true)
+### Microsoft excel was used to determine the percentage of retirees as the current workforce.  Estimates show that 30% of each department is going to be retiring.  This is opportunity for very quick promotions but if a continuity plan is not implemented it could devastate the future workflow.
 ### ![Figure 11 - excel_workforce](https://github.com/ASCHEET/Pewlett-Hackard-Analysis/blob/main/Data/workforce.png?raw=true)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
