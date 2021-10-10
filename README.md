@@ -4,7 +4,7 @@
 
 ## Deliverable One: The Number of Retiring Employees by Title
 ### Firstly, A Retirement Titles table was generated using the code in Figure 1; that holds all the titles of current employees who were born between January 1, 1952 and December 31, 1955. 
-### ![Figure 1 - retirement_titles_q_code](https://github.com/ASCHEET/Pewlett-Hackard-Analysis/blob/main/Data/retireing_titles_q_code.png?raw=true)
+### ![Figure 1 - retirement_titles_q_code](https://github.com/ASCHEET/Pewlett-Hackard-Analysis/blob/main/Data/retirement_table.png?raw=true)
 ### ![Figure 2 - retirement_title_output](https://github.com/ASCHEET/Pewlett-Hackard-Analysis/blob/main/Data/retirement_table_output.png?raw=true)
 ### However; because some employees may have multiple titles in the database, (e.g. due to promotions) the DISTINCT ON statement was used to create a filtered table that contains the most recent title of each employee. 
 ### ![Figure 3 - unique_titles_q_code](https://github.com/ASCHEET/Pewlett-Hackard-Analysis/blob/main/Data/unique_title_q_code.png?raw=true)
